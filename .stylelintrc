@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-prettier",
+    "stylelint-config-recess-order"
+  ],
+
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "customSyntax": "@stylelint/postcss-css-in-js"
+    }
+  ],
+	"rules": {}
+}
