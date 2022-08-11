@@ -91,7 +91,7 @@ React, Typescript, emotion(CSS-in-JS), storybook 앱에 stylelint 초기 세팅 
   - 아래 명령어 실행
   
     ```bash
-    npx husky add .husky/pre-commit "npm run lin-staged" or "npx lint-staged" or "yarn lint-staged"
+    npx husky add .husky/pre-commit "npm run lint-staged" or "npx lint-staged" or "yarn lint-staged"
     ```
         
   - .husky/pre-commit 파일 및 설정 확인
@@ -100,7 +100,7 @@ React, Typescript, emotion(CSS-in-JS), storybook 앱에 stylelint 초기 세팅 
     #!/bin/sh
     . "$(dirname "$0")/_/husky.sh"
     
-    npx lint-staged OR npm run lin-staged OR yarn lint-staged
+    npx lint-staged OR npm run lint-staged OR yarn lint-staged
     ```
         
   
