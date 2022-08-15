@@ -53,6 +53,25 @@ React, Typescript, emotion(CSS-in-JS), storybook 앱에 stylelint 초기 세팅 
     }
     ```
   
+  - VSCode setting.json 설정 추가
+    onSave 시, stylelint 동작 할 수 있도록 설정
+    1. Stylelint - VSCode 확장 프로그램 설치
+    2. (MAC 기준) shift + command + P → 기본 설정 : 사용자 설정 열기(JSON)
+    3. 아래 설정 추가
+
+    ```json
+    {
+      ...
+      "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+      },
+      "stylelint.enable": true,
+      "stylelint.validate": ["css", "scss", "typescript", "typescriptreact"],
+      "editor.formatOnSave": true,
+      ...
+    }
+    ```
+  
 3. 자동으로 커밋 전에 스타일을 수정하여 저장하도록 설정
   - husky 패키지 설치 및 Git Hook 활성화
     

@@ -12,6 +12,6 @@
   ],
 
   "rules": {
-
+    "color-no-hex": true
   }
 }
