@@ -7,7 +7,7 @@ React, Typescript, emotion(CSS-in-JS), storybook 앱에 stylelint 초기 세팅 
 1. 패키지 설치 (⭐️ 필수 설치)
   
   ```bash
-  npm install --save-dev stylelint stylelint-config-prettier postcss-syntax @stylelint/postcss-css-in-js
+  npm install --save-dev stylelint stylelint-config-standard stylelint-config-prettier postcss-syntax @stylelint/postcss-css-in-js
   ```
   
   - ⭐️ stylelint : stylelint 사용을 위해 설치해야할 기본 패키지
