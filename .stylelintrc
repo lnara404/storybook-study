@@ -1,5 +1,6 @@
 {
   "extends": [
+    "stylelint-config-standard",
     "stylelint-config-prettier",
     "stylelint-config-recess-order"
   ],
@@ -11,7 +12,5 @@
     }
   ],
 
-  "rules": {
-    "color-no-hex": true
-  }
+  "rules": {}
 }
