@@ -4,7 +4,9 @@
     "stylelint-config-prettier",
     "stylelint-config-recess-order"
   ],
-
+  "ignoreFiles": [
+    "**/*.ts"
+  ],
   "overrides": [
     {
       "files": ["**/*.tsx"],
@@ -12,5 +14,8 @@
     }
   ],
 
-  "rules": {}
+  "rules": {
+    "function-no-unknown": null,
+    "value-keyword-case": null
+  }
 }

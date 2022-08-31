@@ -12,6 +12,7 @@ React, Typescript, emotion(CSS-in-JS), storybook 앱에 stylelint 초기 세팅 
   
   - ⭐️ stylelint : stylelint 사용을 위해 설치해야할 기본 패키지
   - stylelint-config-standard : stylelint 에서 표준으로 제공하는 규칙에 대한 패키지
+    - [패키지 구성 규칙](https://github.com/stylelint/stylelint-config-standard/blob/main/index.js)
   - ⭐️ stylelint-config-prettier : prettier와 충돌되는 stylelint규칙을 비활성화하는 패키지 (prettier 사용 중이면 설치)
   - stylelint-config-recess-order : Recess 및 Bootstrap이 사용했던 방식으로 CSS 속성 정렬
     - [CSS property order](https://markdotto.com/2011/11/29/css-property-order/)

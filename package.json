@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "stylelint": "stylelint --ignore-path .gitignore '**/*.(css|tsx|ts)' --fix",
+    "stylelint": "stylelint --ignore-path .gitignore '**/*.(css|tsx)' --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
